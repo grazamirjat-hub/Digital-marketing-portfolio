@@ -18,7 +18,8 @@ import {
   Target,
   Users,
   MessageCircle,
-  Facebook
+  Facebook,
+  Github
 } from "lucide-react";
 
 export default function App() {
@@ -264,6 +265,15 @@ export default function App() {
                 <Facebook className="w-6 h-6" />
                 Facebook
               </a>
+              <a 
+                href="https://github.com/grazamirjat-hub" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 bg-slate-900 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:bg-slate-800 transition-all w-full md:w-auto justify-center shadow-lg shadow-slate-200"
+              >
+                <Github className="w-6 h-6" />
+                GitHub
+              </a>
             </div>
           </motion.div>
         </div>
@@ -282,6 +292,7 @@ export default function App() {
           <div className="flex gap-6">
             <a href="https://www.linkedin.com/in/g-raza-mirjat" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors"><Linkedin className="w-5 h-5" /></a>
             <a href="https://www.facebook.com/share/1CVX6YnYg7/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors"><Facebook className="w-5 h-5" /></a>
+            <a href="https://github.com/grazamirjat-hub" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors"><Github className="w-5 h-5" /></a>
             <a href="mailto:grazamirjat@gmail.com" className="text-slate-400 hover:text-blue-600 transition-colors"><Mail className="w-5 h-5" /></a>
           </div>
         </div>
